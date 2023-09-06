@@ -119,6 +119,7 @@ padding: 150px 0px 450px 150px;
     justify-content: center;
     gap: 8%;
     margin-top: 60px;
+
 }
 
 .icon-img-two{
@@ -131,6 +132,52 @@ padding: 150px 0px 450px 150px;
     font-size: 22px;
     color: rgb(151, 146, 146);
     line-height: 0.0;
+    
+}
+
+/* build-your-plan */
+
+.build-your-plan{
+    display: flex;
+    padding: 100px 200px;
+    gap: 20px;
+    align-items:center;
+}
+
+
+
+.left-side{
+    width: 50%;
+}
+
+
+
+/* right-side */
+.build-your-plan-img{
+    height: 430px;
+    width: 100%;
+}
+
+.right-side{
+    width: 50%;
+}
+
+
+        
+/* positive-mindset-container */
+
+.positive-mindset-container{
+    background-image: linear-gradient(90deg, #f07241 0%, rgba(241, 91, 34, 0.00) 100%), url("/images/watch.png");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 70%;
+    margin: auto;
+    padding: 30px 0 50px 50px ;
+    margin-bottom: 100px;
+}
+
+.positive-mindset-header{
+    color: white;
 }
 
 /* footer */
@@ -157,7 +204,7 @@ width: 50%;
   padding:80px 0px 80px 200px ;  
   background-color: black;
   gap: 20%;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 
 }
 
@@ -202,11 +249,13 @@ font-size: 16px;
 
 .footer-btn{
     padding:12px 25px ;
-    background-color: rgb(42, 184, 177);
-    color: white;
+    background-color:  white;
+    color: rgb(239, 78, 29);
     font-size: 18px;
     margin-top: 20px;
     border: none;
     border-radius: 5px;
 
 }
+
+
